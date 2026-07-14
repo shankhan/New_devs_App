@@ -1,0 +1,95 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Vite / frontend build
+/dist
+/.vite
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+**/node_modules/
+**/bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variables files
+.env
+.env.*
+
+# Python
+**/__pycache__/
+**/*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+.envrc
+
+# Python virtual environments
+backend/venv/
+backend/.venv/
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Docker
+docker-compose.override.yml
+docker-compose.*.yml
+**/docker-compose.override.yml
+**/docker-compose.*.yml
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Generated files
+*.swp
+*~
+
+# Supabase / secrets
+supabase/.env
+backend/.env
+frontend/.env
+
+# Misc
+.idea/
+*.sublime-workspace
+*.sublime-project
